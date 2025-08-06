@@ -53,7 +53,7 @@ router.post('/', (req, res) => {
     }
 })
 
-// 1개 데이터 가져오기
+// 1개 데이터 수정하기
 router.put('/:id', (req, res) => {
     try {
         const boardId = Number(req.params.id)
