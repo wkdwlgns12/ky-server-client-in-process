@@ -1,17 +1,19 @@
-// models/boardModel.js
+// models/characterModel.js
 
-// 게시판 데이터 배열 정의
-const Board = [
+const characters = [
     {
         id: 1,
-        title: "공지사항",
-        content: "환영합니다!"
+        name: "아처",
+        level: 10,
+        isOnline: true
     },
     {
         id: 2,
-        title: "업데이트",
-        content: "버전 1.0 출시!"
+        name: "워리어",
+        level: 15,
+        isOnline: false
     }
 ];
 
-module.exports = Board;
+module.exports = characters;
+
